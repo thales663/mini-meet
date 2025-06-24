@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Meet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Mini Meet</h1>
+    <input id="roomInput" type="text" placeholder="Digite o nome da sala">
+    <button onclick="joinRoom()">Entrar na Sala</button>
+  </div>
+
+  <script>
+    function joinRoom() {
+      const room = document.getElementById('roomInput').value.trim();
+      if (room) {
+        window.location.href = `room.html?room=${room}`;
+      } else {
+        alert('Digite um nome para a sala!');
+      }
+    }
+  </script>
+</body>
+</html>

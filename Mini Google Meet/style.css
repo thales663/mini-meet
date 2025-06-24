@@ -1,0 +1,48 @@
+body {
+  background: #0f172a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20vh;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+video {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
+
+#chat {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 10px;
+  background-color: #1e293b;
+  padding: 10px;
+  border-radius: 8px;
+}
